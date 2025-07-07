@@ -1,5 +1,5 @@
 import { MapPin, Calendar, Clock, MessageCircle, ChevronDown } from "lucide-react";
-import { useBookingForm } from "../../hooks/useBookingForm";
+import { useBookingForm } from "../../data/hooks/useBookingForm";
 import { DESTINATION_OPTIONS, ORIGIN_OPTIONS, TIME_OPTIONS } from "../../constants/routes";
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
             {/* Background Image */}
             <div
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-                style={{ backgroundImage: `url('/assets/images/hero-background.png')` }}
+                style={{ backgroundImage: `url('src/assets/images/hero-background.png')` }}
             />
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-50" />

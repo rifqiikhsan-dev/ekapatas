@@ -10,7 +10,7 @@ const Footer = () => {
                         <div className="bg-white text-orange-600 px-4 py-2 rounded font-bold text-xl inline-block mb-4">
                             <div className="flex items-center">
                                 <img
-                                    src="/assets/images/logo-ekapatas.png"
+                                    src="src/assets/images/logo-ekapatas.png"
                                     alt="EKAPATAS Logo"
                                     className="h-10 w-auto object-contain"
                                 />

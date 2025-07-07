@@ -41,7 +41,7 @@ const Header = () => {
                     {/* Logo */}
                     <div className="flex items-center" data-aos="fade-right" data-aos-delay="100">
                         <img
-                            src="/assets/images/logo-ekapatas.png"
+                            src="src/assets/images/logo-ekapatas.png"
                             alt="EKAPATAS Logo"
                             className="h-10 w-auto object-contain"
                         />

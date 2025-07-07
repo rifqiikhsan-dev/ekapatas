@@ -27,7 +27,7 @@ const AboutUs = () => {
                     >
                         <div className="flex items-center mb-6">
                             <img
-                                src="/assets/images/logo-ekapatas.png"
+                                src="src/assets/images/logo-ekapatas.png"
                                 alt="EKAPATAS Logo"
                                 className="h-10 w-auto object-contain"
                             />
@@ -54,7 +54,7 @@ const AboutUs = () => {
                         data-aos-duration="1000"
                     >
                         <img
-                            src="/assets/images/bus-ekapatas.png"
+                            src="src/assets/images/bus-ekapatas.png"
                             alt="EMPS Bus"
                             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain"
                         />
